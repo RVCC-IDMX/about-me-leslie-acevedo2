@@ -58,7 +58,6 @@ header {
 }
 
 #gallery img {
-    max-height:400px;
     max-width: 620px;
 }
 
@@ -66,7 +65,7 @@ header {
     text-align:center;
 
     display:grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Literature */
@@ -115,6 +114,7 @@ figcaption {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+    grid-template-columns: 2fr 1fr;
 }
 figure img {
     width: 100%;
@@ -187,7 +187,7 @@ legend {
 
     #gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
     }
     hr {
         display: none;
