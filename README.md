@@ -1,5 +1,3 @@
-# README
-
 #Leslie Acevedo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a3a6df38-1b9b-4e5c-bc2f-b1d67dd42ae8/deploy-status)](https://app.netlify.com/sites/about-me-leslie-acevedo2/deploys) 
