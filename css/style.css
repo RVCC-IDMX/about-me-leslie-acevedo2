@@ -72,11 +72,12 @@ header {
 }
 
 .img-wrapper > img{
-display: inline-block;
+display: block;
 width: 100%;
 aspect-ratio: 1 /1;
 object-fit:cover;
 object-position: center;
+column-gap: .5em;
 }
 
 .img-wrapper > .content {
