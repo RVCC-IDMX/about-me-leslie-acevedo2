@@ -79,7 +79,6 @@ object-position: center;
     inset: 0;
     font-size:2rem;
     padding: 1rem;
-    background: rgb(255, 255, 255, .4);
     display:flex; 
     justify-content: center;
     align-items: center;
