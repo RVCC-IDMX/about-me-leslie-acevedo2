@@ -72,7 +72,7 @@ header {
 }
 
 .img-wrapper > img{
-display: flex;
+display: inline-block;
 width: 100%;
 aspect-ratio: 1 /1;
 object-fit:cover;
@@ -82,7 +82,7 @@ object-position: center;
 .img-wrapper > .content {
     position: absolute;
     inset: 0;
-    font-size:2rem;
+    font-size:1rem;
     padding: 1rem;
     background: rgb(255, 255, 255, .4);
     display:flex; 
@@ -94,9 +94,11 @@ object-position: center;
 .img-wrapper > .content {
 transition: 200ms ease-in-out;
 }
+
 .img-wrapper:hover > img.blur {
     filter: blur(5px);
 }
+
 .img-wrapper:hover > img.zoom {
     transform: scale(1.1);
 }
