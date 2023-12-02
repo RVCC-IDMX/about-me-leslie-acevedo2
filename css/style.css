@@ -59,6 +59,7 @@ header {
 
 #gallery img {
     max-width: 620px;
+    row-gap: .5em;
 }
 
 .gallery {
@@ -77,13 +78,12 @@ width: 100%;
 aspect-ratio: 1 /1;
 object-fit:cover;
 object-position: center;
-row-gap: .5em;
 }
 
 .img-wrapper > .content {
     position: absolute;
     inset: 0;
-    font-size:1.5rem;
+    font-size:2rem;
     padding: 1rem;
     background: rgb(255, 255, 255, .4);
     display:flex; 
