@@ -53,18 +53,12 @@ header {
 }
 
 /* Gallery section */
-#gallery {
-    border: 2px solid #601a35;
-}
-
-#gallery img {
-    max-width: 620px;
-    row-gap: .5em;
-}
 
 .gallery {
+    border: 2px solid #601a35;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: .5em;
 }
 
 .img-wrapper {
