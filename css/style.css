@@ -58,7 +58,7 @@ header {
     border: 2px solid #601a35;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap: .5em;
+    margin: 0 , auto;
 }
 
 .img-wrapper {
