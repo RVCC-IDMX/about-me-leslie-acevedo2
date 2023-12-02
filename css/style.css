@@ -58,7 +58,6 @@ header {
     border: 2px solid #601a35;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: 0 , auto;
 }
 
 .img-wrapper {
@@ -85,7 +84,7 @@ object-position: center;
     align-items: center;
 }
 
-.img-wrapper >img,
+.img-wrapper > img,
 .img-wrapper > .content {
 transition: 200ms ease-in-out;
 }
