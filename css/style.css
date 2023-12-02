@@ -66,10 +66,10 @@ header {
     overflow:hidden;
 }
 
-.img-wrapper > img{
+.img-wrapper > img {
 display: block;
 width: 100%;
-aspect-ratio: 1 /1;
+aspect-ratio: 1 / 1;
 object-fit:cover;
 object-position: center;
 }
@@ -79,6 +79,7 @@ object-position: center;
     inset: 0;
     font-size:2rem;
     padding: 1rem;
+    background: rgb(255, 255, 255, .4);
     display:flex; 
     justify-content: center;
     align-items: center;
