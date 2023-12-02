@@ -67,33 +67,7 @@ header {
     align-items: center;
     grid-template-columns: 1fr 1fr;
 }
-
-/* Literature */
-#lit {
-    text-align:center;
-    border:2px solid #601a35;
-    margin-bottom:2rem;
-}
-
-#lit div p {
-    padding:2rem;
-    max-width: 40rem;
-    margin: 0 auto;
-    clear:both;
-}
-
-/*my video */
-#myvideo {
-    width:100%;
-    display:block;
-    margin:auto;
-    display:flex; 
-    justify-content: center;
-    align-items: center;
-
-}
-
-.hover {
+.gallery {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -140,6 +114,32 @@ transition: 200ms ease-in-out;
 .img-wrapper:hover > .content.fade {
     opacity: 1;
 }
+
+/* Literature */
+#lit {
+    text-align:center;
+    border:2px solid #601a35;
+    margin-bottom:2rem;
+}
+
+#lit div p {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    clear:both;
+}
+
+/*my video */
+#myvideo {
+    width:100%;
+    display:block;
+    margin:auto;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
 /* dropcaps */
 
 #lit div p:nth-child(3n+1):first-letter {
