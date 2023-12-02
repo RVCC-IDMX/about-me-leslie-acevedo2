@@ -61,12 +61,6 @@ header {
     max-width: 620px;
 }
 
-#gallery figure {
-    text-align:center;
-    display:grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-}
 .gallery {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
