@@ -77,13 +77,13 @@ width: 100%;
 aspect-ratio: 1 /1;
 object-fit:cover;
 object-position: center;
-column-gap: .5em;
+row-gap: .5em;
 }
 
 .img-wrapper > .content {
     position: absolute;
     inset: 0;
-    font-size:1rem;
+    font-size:1.5rem;
     padding: 1rem;
     background: rgb(255, 255, 255, .4);
     display:flex; 
