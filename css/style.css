@@ -61,7 +61,6 @@ header {
 }
 
 .img-wrapper {
-    column-gap: 0.5em;
     position:relative;
     overflow:hidden;
 }
@@ -83,6 +82,7 @@ object-position: center;
     display:flex; 
     justify-content: center;
     align-items: center;
+    opacity: 0;
 }
 
 .img-wrapper > img,
@@ -96,10 +96,6 @@ transition: 200ms ease-in-out;
 
 .img-wrapper:hover > img.zoom {
     transform: scale(1.1);
-}
-
-.img-wrapper:hover > .content.fade {
-    opacity: 0;
 }
 
 .img-wrapper:hover > .content.fade {
