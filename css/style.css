@@ -156,7 +156,7 @@ figcaption {
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-left: 1rem;
     grid-template-columns: 2fr 1fr;
 }
