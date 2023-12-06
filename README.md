@@ -12,4 +12,8 @@ Leslie Acevedo
 
  "Awesome CSS image hover effects that you can use on your website" - By WPDT Staff 
  url: https://wpdatatables.com/css-image-hover-effects/
+
+ "Image hover text overlay effect with HTML & CSS - Web design tutorial" - dcode
+ url: https://www.youtube.com/watch?v=exb2ab72Xhs
+ 
 **License**:
