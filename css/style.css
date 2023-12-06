@@ -61,7 +61,8 @@ header {
 }
 
 .img-wrapper {
-    position:absolute;
+    column-gap: 0.5em;
+    position:relative;
     overflow:hidden;
 }
 
