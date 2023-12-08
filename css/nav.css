@@ -101,7 +101,7 @@ padding: 0.5em 0;
 
 /* style all a tags in header and then on hover */
 
-.navbar-links a {
+a {
     background-color: #ECF1EF;
     font-size: 2rem;
     padding: 1rem 1.25rem;
