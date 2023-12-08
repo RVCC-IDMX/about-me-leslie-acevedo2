@@ -36,22 +36,21 @@ main {
     padding: 1rem;
     border-bottom:1px solid;
 
-&__toggle {
+&__toggle{
     position: absolute;
     cursor:pointer;
     margin: 0rem 1rem;
     right: 0;
-}
 
-svg {
-    width: 1.5rem;
+    svg{
+        width: 1.5rem;
 }
 .close {
-        display:none;
-    }
-
+    display:none;
+}
 .menu {
     margin-top: 0.2rem
+}
 }
 &__checkbox {
 display:none;
@@ -63,20 +62,6 @@ display:none;
     gap:2rem;
     align-items: center;
     margin: 1rem;
-
-li{
-    list-style:none;
-    display:none;
-
-    a{
-        text-decoration: none;
-        color:inherit;
-        font-size:1.2rem;
-    }
-    svg{
-        width:1.5rem;
-    }
-}
 }
 }
 
@@ -105,20 +90,28 @@ li{
 
 .navbar-links li {
 list-style: none;
-display: block;
+display: none;
 padding: 0.5em 0;
+
+&:first-child{
+    margin-right:auto;
+    display:bock;
+}
 }
 
 /* style all a tags in header and then on hover */
 
 .navbar-links a {
-    color: black;
     background-color: #ECF1EF;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+    color: inherit;
+    }
+    svg{
+        width:1.5rem;
 }
 
 .navbar-links a:hover,
