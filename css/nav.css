@@ -14,9 +14,9 @@ body {
     padding: 0;
     margin: 0;
     font-weight:700;
+    color: black;
     height:100vh;
 }
-
 
 /* add some padding back to rest of page */
 
@@ -43,14 +43,12 @@ main {
 /* navbar */
 
 .navbar {
-    background-color:#ECF1EF; 
-    color:black; 
     display:flex;
     flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
-    border-bottom:1px solid;
+    border-bottom:1px solid #601a35;
 
 &__toggle{
     position: absolute;
