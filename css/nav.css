@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-weight: 700;
+    font-weight:700;
     height:100vh;
 }
 
@@ -22,6 +22,22 @@ body {
 
 main {
     padding: 2vw;
+}
+
+/* logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 6vw;
+    width: 6vw;
+}
+
+.logo h1 {
+    font-size: 1.2em;
 }
 
 /* navbar */
@@ -52,6 +68,7 @@ main {
     margin-top: 0.2rem
 }
 }
+
 &__checkbox {
 display:none;
 }
@@ -69,26 +86,9 @@ display:none;
     display: block;
 }
 
-/* logo */
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 6vw;
-    width: 6vw;
-}
-
-.logo h1 {
-    font-size: 1.2em;
-}
-
-
 /* navigation list */
 
-.navbar-links li {
+li {
 list-style: none;
 display: none;
 padding: 0.5em 0;
