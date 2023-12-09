@@ -15,8 +15,8 @@ html {
 
 body {
     margin: 0;
-    font-weight:500;
     background:#ECF1EF;
+    font-weight:500;
 }
 
 /* add some padding back to rest of page */
@@ -96,7 +96,7 @@ nav {
     right:0;
     background: #ECF1EF;
     width: 100%;
-    transform: scale(1,0);
+    transform: scale(0,1);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
 }
@@ -144,16 +144,11 @@ nav a:hover {
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 
-@media screen and (min-width:800px) {
+@media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
       }
-    .nav li {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .nav {
+     .nav {
         position: relative;
         text-align: right;
         transition: none;
@@ -161,7 +156,7 @@ nav a:hover {
         background: none;
         top: initial;
         right: initial;
-        grid-column: 3 / 4;
+        grid-column: 4 / 3;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -188,7 +183,7 @@ nav a:hover {
         top: -.75em;
         left: 0;
         right: 0;
-        transform: scale(0, 1);
+        transform: scale(1, 0);
         transition: transform ease-in-out 250ms;
       }
       
