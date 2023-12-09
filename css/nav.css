@@ -95,14 +95,12 @@ top: 7px;
 }
 nav {
     position: absolute;
-    text-align:center;
+    text-align:right;
     top:100%;
     right:0;
-    font-size: 1.5rem;
-    padding: 1rem;
     background: #ECF1EF;
     width: 100%;
-    display:none;
+    transform: scale(1,0);
 }
 
 nav ul {
@@ -133,22 +131,24 @@ nav a:hover {
 }
 
 .nav-toggle:checked ~ nav {
-    display: block;
+    transform: scale(1,1);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
 }
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 
 @media screen and (min-width:60rem) {
-    .navbar-links {
+    .nav li {
         display: flex;
         justify-content: space-between;
     }
 
-    .navbar {
+    .nav {
         flex-direction: row;
         justify-content: space-between;
     }
-    .navbar ul {
+    .nav ul {
         display: flex;
         justify-content: space-between;
     }
