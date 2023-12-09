@@ -16,7 +16,7 @@ html {
 body {
     margin: 0;
     font-weight:500;
-    color:#AA336A;
+    background:#ECF1EF;
 }
 
 /* add some padding back to rest of page */
@@ -45,11 +45,11 @@ header {
     text-align:center;
     position: fixed;
     z-index:999;
-    width: 100;
+    width: 100%;
 }
 /* navbar */
 .nav-toggle {
-    display:none;
+    position: absolute;
     top: -9999px;
     right:-9999px;
 }
@@ -73,6 +73,7 @@ header {
     width:2em;
     border-radius: 2px;
     position: relative;
+    align-items: right;
 }
 
 .nav-toggle-label span::before,
