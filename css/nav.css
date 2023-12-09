@@ -4,6 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 /* 
  get rid of padding & sizing on body so
  header is at top
@@ -13,9 +17,14 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-weight:700;
-    color:#AA336A;;
+    font-weight:500;
+    color:#AA336A;
+}
+
+.content {
     height:100vh;
+    display:grid;
+    place-items:center;
 }
 
 /* add some padding back to rest of page */
@@ -40,6 +49,12 @@ main {
     font-size: 1.2em;
 }
 
+header {
+    text-align:center;
+    position: fixed;
+    z-index:999;
+    width: 100;
+}
 /* navbar */
 
 .navbar {
