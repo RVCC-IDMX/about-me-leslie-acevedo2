@@ -21,10 +21,6 @@ body {
 
 /* add some padding back to rest of page */
 
-main {
-    padding: 2vw;
-}
-
 /* logo */
 
 .logo {
@@ -96,7 +92,7 @@ nav {
     right:0;
     background: #ECF1EF;
     width: 100%;
-    transform: scale(0,1);
+    transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
 }
@@ -145,9 +141,6 @@ nav a:hover {
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 
 @media screen and (min-width: 800px) {
-    .nav-toggle-label {
-        display: none;
-      }
      .nav {
         position: relative;
         text-align: right;
