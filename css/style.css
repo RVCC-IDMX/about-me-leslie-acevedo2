@@ -158,23 +158,7 @@ transition: 200ms ease-in-out;
 
 /* tablet size */
 @media screen and (min-width: 60em) {
-    figure {
-        display:grid;
-        grid-template-columns: 2fr 1fr;
-    }
-
-figcaption {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    margin-left: 1rem;
-    grid-template-columns: 2fr 1fr;
-}
-figure img {
-    width: 100%;
-}
-
+    
 #lit div {
     max-width:100%;
     columns: 20rem;
