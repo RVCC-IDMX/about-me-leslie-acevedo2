@@ -92,7 +92,7 @@ nav {
     right:0;
     background: #ECF1EF;
     width: 100%;
-    transform: scale(1);
+    transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
 }
