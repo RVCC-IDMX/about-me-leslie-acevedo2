@@ -73,7 +73,6 @@ header {
     width:2em;
     border-radius: 2px;
     position: relative;
-    align-items: right;
 }
 
 .nav-toggle-label span::before,
