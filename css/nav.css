@@ -156,14 +156,12 @@ nav a:hover {
 
     .nav {
         position: relative;
-        text-align: left;
+        text-align: right;
         transition: none;
         transform: scale(1,1);
         background: none;
         top: initial;
         left: initial;
-        flex-direction: row;
-        justify-content: space-between;
         grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
@@ -171,10 +169,9 @@ nav a:hover {
     }
     .nav ul {
         display: flex;
-        justify-content: space-between;
     }
     nav li {
-        margin-left: 3em;
+        margin-right: 3em;
         margin-bottom: 0;
       }
       
