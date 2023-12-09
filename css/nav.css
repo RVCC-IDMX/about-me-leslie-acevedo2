@@ -50,6 +50,8 @@ header {
 /* navbar */
 .nav-toggle {
     display:none;
+    top: -9999px;
+    right:-9999px;
 }
 
 .nav-toggle-label {
@@ -95,6 +97,8 @@ nav {
     background: #ECF1EF;
     width: 100%;
     transform: scale(1,0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
 }
 
 nav ul {
@@ -106,7 +110,7 @@ nav ul {
 /* navigation list */
 
 nav li {
-margin-bottom: 1rem;
+margin-bottom: 1em;
 margin-right: 1em;
 }
 
