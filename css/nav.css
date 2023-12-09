@@ -145,7 +145,7 @@ nav a:hover {
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 
-@media screen and (min-width:60rem) {
+@media screen and (min-width:800px) {
     .nav-toggle-label {
         display: none;
       }
