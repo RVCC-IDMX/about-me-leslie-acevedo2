@@ -138,7 +138,7 @@ nav a:hover {
 
 .nav-toggle:checked ~ nav a {
     opacity: 1;
-    transition: opacity 250ms ease-in-out 2500ms;
+    transition: opacity 250ms ease-in-out 250ms;
 }
 
 
@@ -160,7 +160,7 @@ nav a:hover {
         transform: scale(1,1);
         background: none;
         top: initial;
-        left: initial;
+        right: initial;
         grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
@@ -183,7 +183,7 @@ nav a:hover {
         content: '';
         display: block;
         height: 5px;
-        background: black;
+        background:#ECF1EF;
         position: absolute;
         top: -.75em;
         left: 0;
