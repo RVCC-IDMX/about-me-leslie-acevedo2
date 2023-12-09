@@ -56,7 +56,43 @@ header {
     width: 100;
 }
 /* navbar */
+.nav-toggle {
+    display:none;
+}
 
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    right:0;
+    margin-right:1em;
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: black;
+    height: 2px;
+    width:2em;
+    border-radius: 2px;
+    position: relative;
+}
+.nav-toggle-label span::after
+.nav-toggle-label span::before {
+    content:'';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+top: 7px;
+}
 nav {
     position: absolute;
     text-align:center;
@@ -64,9 +100,9 @@ nav {
     right:0;
     font-size: 1.5rem;
     padding: 1rem;
-    border-bottom:1px solid #601a35;
     background: #ECF1EF;
-    width: 100%
+    width: 100%;
+    display:none;
 }
 
 nav ul {
@@ -83,10 +119,9 @@ margin-right: 1em;
 }
 
 /* style all a tags in header and then on hover */
-
 nav a {
     color:black;
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
@@ -95,6 +130,10 @@ nav a {
 
 nav a:hover {
     color: black;
+}
+
+.nav-toggle:checked ~ nav {
+    display: block;
 }
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
