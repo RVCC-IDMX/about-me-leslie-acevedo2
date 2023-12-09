@@ -14,6 +14,7 @@ body {
     padding: 0;
     margin: 0;
     font-weight:700;
+    color:#AA336A;;
     height:100vh;
 }
 
@@ -48,14 +49,15 @@ main {
     margin-bottom: 1rem;
     padding: 1rem;
     border-bottom:1px solid #601a35;
+}
 
-&__toggle{
+.toggle {
     position: absolute;
     cursor:pointer;
     margin: 0rem 1rem;
     right: 0;
-
-    svg{
+}
+    svg {
         width: 1.5rem;
 }
 .close {
@@ -64,19 +66,17 @@ main {
 .menu {
     margin-top: 0.2rem
 }
-}
 
-&__checkbox {
+.checkbox {
 display:none;
 }
 
-&__menu {
+.navbar__menu {
     display:flex;
     flex-direction: column;
     gap:2rem;
     align-items: center;
     margin: 1rem;
-}
 }
 
 /* navigation list */
