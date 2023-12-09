@@ -57,22 +57,27 @@ header {
 }
 /* navbar */
 
-.navbar {
-    display:flex;
-    flex-direction: column;
+nav {
+    position: absolute;
+    text-align:center;
+    top:100%;
+    right:0;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
     padding: 1rem;
     border-bottom:1px solid #601a35;
 }
 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
 /* navigation list */
 
-li {
-list-style: none;
-display: none;
-padding: 0.5em 0;
-
+nav li {
+margin-bottom: 1rem;
+margin-right: 1em;
 }
 
 /* style all a tags in header and then on hover */
