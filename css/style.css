@@ -236,7 +236,7 @@ legend {
 
     #gallery {
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
     hr {
         display: none;
