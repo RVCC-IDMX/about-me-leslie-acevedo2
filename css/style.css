@@ -45,11 +45,16 @@ header {
 
 /* Hobbies section */
 #hobbies ul li {
-    color:black;
+    margin: 0;
+    padding: 0;
+    color:#AA336A;
     text-align:center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 1em;
+    margin-right: 1em;
     align-items: center;
+    list-style:square ;
 }
 
 /* Gallery section */
