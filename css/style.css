@@ -48,6 +48,9 @@ header {
     max-width: 100;
     align-items: center;
 }
+#bio p {
+    align-items: center;
+}
 
 /* Hobbies section */
 #hobbies ul li {
