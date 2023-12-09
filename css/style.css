@@ -39,6 +39,8 @@ header {
 /* Bio section */
 
 #bio {
+    margin:0 auto;
+    padding:1rem;
     text-align:center;
     display: flex;
 }
@@ -46,7 +48,7 @@ header {
 /* Hobbies section */
 #hobbies ul li {
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     color:#AA336A;
     text-align:center;
     display: flex;
@@ -81,7 +83,7 @@ object-position: center;
 .img-wrapper > .content {
     position: absolute;
     inset: 0;
-    font-size:2rem;
+    font-size:1.5rem;
     padding: 1rem;
     background: rgb(255, 255, 255, .4);
     display:flex; 
