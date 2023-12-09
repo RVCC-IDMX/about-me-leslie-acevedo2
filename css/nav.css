@@ -92,18 +92,19 @@ padding: 0.5em 0;
 
 a {
     background-color: #ECF1EF;
+    color:black;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
     color: inherit;
-    }
-    svg{
+}
+    svg {
         width:1.5rem;
 }
 
-#navbar__checkbox:checked ~ ul.navbar__menu li{
+#navbar__checkbox:checked ~ ul.navbar__menu li {
     display: block;
 }
 
