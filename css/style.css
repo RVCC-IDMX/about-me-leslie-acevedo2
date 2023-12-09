@@ -174,7 +174,7 @@ figcaption {
 figure img {
     width: 100%;
 }
-    
+}  
 #lit div {
     max-width:100%;
     columns: 20rem;
@@ -185,7 +185,6 @@ figure img {
     max-width:100%;
     justify-content: center;
     align-items: center;
-}
 }
 /* Contact Form */
 
