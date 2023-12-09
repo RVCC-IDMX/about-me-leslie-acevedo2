@@ -146,18 +146,57 @@ nav a:hover {
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 
 @media screen and (min-width:60rem) {
+    .nav-toggle-label {
+        display: none;
+      }
     .nav li {
         display: flex;
         justify-content: space-between;
     }
 
     .nav {
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1,1);
+        background: none;
+        top: initial;
+        left: initial;
         flex-direction: row;
         justify-content: space-between;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
     .nav ul {
         display: flex;
         justify-content: space-between;
     }
-
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+      }
+      
+      nav a {
+        opacity: 1;
+        position: relative;
+      }
+      
+      nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: black;
+        position: absolute;
+        top: -.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms;
+      }
+      
+      nav a:hover::before {
+        transform: scale(1,1);
+      }
 }
