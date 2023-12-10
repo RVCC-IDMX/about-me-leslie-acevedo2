@@ -7,6 +7,7 @@ Leslie Acevedo
 **Color Scheme**: Throughout my about me website I have used two major colors like #E8E8E8 as my background color , #AA336A for my font color and in my contact form I used both #E75480 and #601A35 as my major colors. 
 
 **Citation**: 
+For my article blog I used these three resources: 
  "A step-by-step gruide to image hover effects in wordpress" - by FOO Plugins 
  url: https://fooplugins.com/wordpress-hover-effects/#:~:text=Hover%20effects%20are%20the%20visual,change%20from%20greyscale%20to%20color 
 
